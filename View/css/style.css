@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, helvetica, sans-serif;
+    background-color: var(--preta);
+    color: white;
+}
+
+#head-container {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#head-container img {
+    display: flex;
+    float: left;
+    margin-top: 8px;
+    margin-left: 20px;
+    image-resolution: auto;
+    height: 7vh;
+}
+
+#menu {
+    margin-left: 20px;
+    width: 120vw;
+}
+
+#menu ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#menu a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    
+}
+
+#menu a:hover, button:hover {
+    font-weight: bold;
+}
+
+ #right{
+    float: right;
+    display: inline-flex;
+    align-items: center;
+    width: 80vw;
+    height: inherit;
+    margin-left: 30%;
+    color: rgb(255, 255, 255);
+    
+}
+
+.btn {  display: inline-block;  border-radius: 4px;  background-color: #f4511e;  border: none;  color: #FFFFFF;  text-align: center;  font-size: 28px;  padding: 20px;  width: 200px;  transition: all 0.5s;  cursor: pointer;  margin: 5px;}
+
+#right ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#right ul li{
+    font-size: 1.35em;
+    margin-left: 25px;
+}
+
+#right a{
+    text-decoration: none;
+}
+
+#right a:visited{
+    color:#FFFFFF
+}
+
+#main {
+    position: absolute;
+}
+
+
+/*Banner*/
+#banner{
+    height: 75vh;
+    width: 100%;
+    background-image:
+    linear-gradient(0deg, rgba(20,20,20,1) 7%, rgba(20,20,20,0.6951155462184874) 49%, rgba(121,119,119,0) 100%),
+    url('../img/duna-banner.jpg');
+    background-size: cover;
+}
+
+
+#banner img {
+    width: 45vw;
+    margin-left: 5px;
+}
+
+#banner p {
+    margin-left: 10px;
+    font-size: 15px;
+    width:40vw;
+    text-align: justify;
+    background: transparent;
+}
+
+/* categories */
+h2 {
+    position: absolute;
+    background: rgb(20,20,20);
+    background: linear-gradient(0deg, rgba(20,20,20,1) 0%, rgba(20,20,20,0.2805497198879552) 60%);
+}
+.categories{
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#film1 {
+    height: 40vh;
+    margin-left: 10px;
+}
+
+#film1-cover {
+    height: 40vh;
+    margin-left: 10px;
+}
+
+#film1-logo{
+    display: none;
+}
+
+#film1-banner{
+    display: none;
+}
+
+#film2 {
+    height: 40vh;
+    margin-left: 10px;
+}
+
+#film2-cover {
+    height: 40vh;
+    margin-left: 10px;
+}
+
+#film2-logo{
+    display: none;
+}
+
+#film2-banner{
+    display: none;
+}
+#film3-cover {
+    height: 40vh;
+    margin-left: 10px;
+}
+
+#film3-logo{
+    display: none;
+}
+
+#film3-banner{
+    display: none;
+}
+#film4-cover {
+    height: 40vh;
+    margin-left: 10px;
+}
+
+#film4-logo{
+    display: none;
+}
+
+#film4-banner{
+    display: none;
+}
+#film5-cover {
+    height: 40vh;
+    margin-left: 10px;
+}
+
+#film5-logo{
+    display: none;
+}
+
+#film5-banner{
+    display: none;
+}
+#film6-cover {
+    height: 40vh;
+    margin-left: 10px;
+}
+
+#film6-logo{
+    display: none;
+}
+
+#film6-banner{
+    display: none;
+}
+
+
+.detailing {
+    background-color: var(--preta);
+    display: none;
+}

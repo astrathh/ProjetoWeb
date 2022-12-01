@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="View/css/login.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="View/img/sciflix_logo.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <div class="login_body">
+        <div class="login_box">
+            <h2>Entrar</h2>
+            <div id="msgError"></div>
+            <div id="msgSuccess"></div>
+            <form>
+                <div class="input_box">
+                    <input required type="email" id='usuario' placeholder="Email">
+                    <label id="userLabel" for="usuario"></label>
+                </div>
+
+                <div class="input_box">
+                    <input required type="password" id='senha' placeholder="Senha">
+                    <label id="senhaLabel" for="senha"></label>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+
+                <div>
+                    <button onclick="entrar()" class="submit">
+                        Entrar
+                    </button>
+                </div>
+            </form>
+
+            <div class="support">
+                <div class="remember">
+                    <span><input type="checkbox" style="margin: 0;padding: 0; height: 13px;"></span>
+                    <span>Lembre-se de mim</span>
+                </div>
+            </div>
+
+            <div class="login_footer">
+
+                <div class="sign_up">
+                    <p>Novo por aqui? <a href="register.html">Cadastre-se agora.</a></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="View/js/login.js"></script>
+</body>
+
+</html>

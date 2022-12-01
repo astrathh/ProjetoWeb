@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="View/css/login.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="View/img/sciflix_logo.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <div class="login_body">
+        <div class="login_box">
+            <h2>Cadastrar</h2>
+            <div id="msgError"></div>
+            <div id="msgSuccess"></div>
+            <form>
+                <div class="input_box">
+                    <input required type="email" placeholder="Email ou número de telefone">
+                    <label id="labelUsuario" for="usuario"></label>
+                </div>
+
+                <div class="input_box">
+                    <input required type="password" placeholder="Senha">
+                    <label id="labelSenha" for="senha"></label>
+                    <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+
+                <div class="input_box">
+                    <input required type="password" placeholder="Confirme sua senha" id="confirm_password" required>
+                    <label id="labelConfirmSenha" for="confirmSenha"></label>
+                    <i id="verConfirmSenha" class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+
+                <div>
+                    <button onclick="cadastrar()" class="submit">
+                        Confirmar
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script src="View/js/register.js"></script>
+</body>
+
+</html>
